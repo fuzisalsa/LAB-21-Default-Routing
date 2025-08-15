@@ -7,12 +7,13 @@ tanggal 15 agustus 2025
 **langkah-langkah:**
 # R1
 1. colokkan R1 ke laptop buka winbox     
-   pilih menu terminal buatkan password dan user lalu identity    
+   pilih menu terminal buatkan password dan user lalu identity      
 
-via terminal
+via terminalL: 
+
 ![M](lab22pw.PNG)
 
-pilih menu system > identity **R1** 
+pilih menu system > identity **R1**   
 
 ![T](LAB22IDN.PNG)
 
@@ -20,16 +21,18 @@ pilih menu system > identity **R1**
    pilih Menu IP > Address  
    klik +  
 
-eth1
+eth1  
 ![M](lab23ads1.2.PNG) 
 
-eth2
-![M](23ads1.1.PNG)
+eth2  
+![M](23ads1.1.PNG) 
+
+apply lalu ok  
 
 ![M](lab23ads1.PNG)
 
-3. konfigurasi static routing 
-   pilih menu IP > routes    
+3. konfigurasi static routing  
+   pilih menu IP > routes      
    dst-addres= ip default (0.0.0.0/0)   
    gateway= ip yang akan di pasang di router2
 
@@ -50,7 +53,8 @@ apply lalu ok
       
 ![b](logon.PNG)  
 
-  3. Ganti Identitas RB menjadi **R2**.  
+  3. Ganti Identitas RB menjadi **R2**.    
+     via terminal:    
 
          system identity set name=R2
      
@@ -68,27 +72,28 @@ apply lalu ok
 
 # R3
   1. Buat username dan password sesuai perintah di Topologi.  
+     via terminal: 
 
          user add name=ahnaf password=jaringan group=full
        
-  3. Login mengunakan user yang telah dibuat.
-      
-![g]()  
-
+  2. Login mengunakan user yang telah dibuat.  
   3. Ganti Identitas RB menjadi **R3**.  
+     via terminal:  
 
           system identity set name=R3
      
   4. Tambahkan IP Address untuk ether1 dan ether2.  
      ether1 = 23.23.23.2/30 (untuk koneksi R3 ke R2)  
-     ether2 = 33.33.33.1/29 (untuk koneksi R3 ke Laptop B)
+     ether2 = 33.33.33.1/29 (untuk koneksi R3 ke Laptop B)  
+     via terminal:
 
           
           ip address add interface=ether1 address=23.23.23.2/30  
           ip address add interface=ether2 address=33.33.33.1/29
      
   5. Sekarang konfigurasi static routing  
-     dst addrs=11.11.11.0/27 gateway=23.23.23.1
+     dst addrs=11.11.11.0/27 gateway=23.23.23.1   
+     via terminal:
 
           ip route add dst-address=11.11.11.0/27 gateway=23.23.23.1
 
