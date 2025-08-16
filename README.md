@@ -110,5 +110,8 @@ apply lalu ok
   Laptop B:  
   ![k]()
 
+# kesimpulan
+Default route ini menggunakan network 0.0.0.0 sebagai destinasinya. Network 0.0.0.0 itu bisa mencakup semua network yang memang benar-benar tidak ada di table routing, misalnya internet.
+
 
 
