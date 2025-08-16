@@ -9,7 +9,7 @@ tanggal 15 agustus 2025
 1. colokkan R1 ke laptop buka winbox     
    pilih menu terminal buatkan password dan user lalu identity      
 
-via terminalL: 
+via terminall: 
 
 ![M](lab22pw.PNG)
 
