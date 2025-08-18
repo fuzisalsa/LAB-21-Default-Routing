@@ -61,14 +61,22 @@ apply lalu ok
   4. Tambahkan IP Address untuk ether1 dan ether2.  
      ether1 = 12.12.12.2/30 (untuk koneksi R2 ke R1)  
      ether2 = 23.23.23.1/30 (untuk koneksi R2 ke R3)
-       
-![c]()  
+
+![m](sdadsada.PNG)
+
+![m](dasdddasdwa.PNG)
+
+![c](yufgddf.PNG) 
 
   5. Sekarang konfigurasi static routing  
      dst addrs=11.11.11.0/27 gateway=12.12.12.1  
      dst addrs=33.33.33.0/29 gateway=23.23.23.2
-      
-![e]()  
+
+![m](dasdadawdsd.PNG)
+
+![m](gdfghdfsdf.PNG) 
+
+![e](disjndioasjd.PNG)  
 
 # R3
   1. Buat username dan password sesuai perintah di Topologi.  
@@ -102,13 +110,13 @@ apply lalu ok
   Laptop A = 11.11.11.2  
   ![h](pc2.PNG)  
   Laptop B = 33.33.33.3  
-  ![i]()  
+  ![i](jdasiodaj.PNG)  
 # pengujian via cmd
   Jika sudah coba ping dari Laptop A ke B dan sebaliknya, apakah sudah terkoneksi.  
   Laptop A:  
   ![m](lab23ping.PNG)  
   Laptop B:  
-  ![k]()
+  ![k](jdasiodaj.PNG)
 
 # kesimpulan
 Default route ini menggunakan network 0.0.0.0 sebagai destinasinya. Network 0.0.0.0 itu bisa mencakup semua network yang memang benar-benar tidak ada di table routing, misalnya internet.
