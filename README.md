@@ -110,7 +110,7 @@ apply lalu ok
   Laptop A = 11.11.11.2  
   ![h](pc2.PNG)  
   Laptop B = 33.33.33.3  
-  ![i](jdasiodaj.PNG)  
+  ![i](asdfg.PNG)  
 # pengujian via cmd
   Jika sudah coba ping dari Laptop A ke B dan sebaliknya, apakah sudah terkoneksi.  
   Laptop A:  
