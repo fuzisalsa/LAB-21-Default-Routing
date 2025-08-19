@@ -106,6 +106,7 @@ apply lalu ok
           ip route add dst-address=12.12.12.0/30 gateway=23.23.23.1
 
 berikut tampilan routing table:
+menu IP > Routes
 
 ![m](routes.png)
 
