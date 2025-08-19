@@ -99,11 +99,15 @@ apply lalu ok
           ip address add interface=ether1 address=23.23.23.2/30  
           ip address add interface=ether2 address=33.33.33.1/29
      
-  5. Sekarang konfigurasi static routing  
-     dst addrs=11.11.11.0/27 gateway=23.23.23.1   
+  5. Sekarang konfigurasi static routing   
      via terminal:
 
           ip route add dst-address=11.11.11.0/27 gateway=23.23.23.1
+          ip route add dst-address=12.12.12.0/30 gateway=23.23.23.1
+
+berikut tampilan routing table:
+
+![m](routes.png)
 
 # setting ip Laptop  
   Jika semua router sudah di konfigurasi, selanjutnya kita setting IP untuk setiap laptop.  
